@@ -1,0 +1,15 @@
+.*~
+*~
+.ansible.log
+.bash_history
+.bash_logout
+.cache
+.dbus
+.virtualenvs
+c_home
+git
+*.zip
+*.tar
+*.gz
+.ssh
+*.swp
