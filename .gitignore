@@ -1,15 +1,33 @@
-.*~
-*~
-.ansible.log
-.bash_history
-.bash_logout
-.cache
-.dbus
-.virtualenvs
-c_home
-git
-*.zip
-*.tar
-*.gz
-.ssh
-*.swp
+# Ignore everything.
+*
+
+# Ignore the root directory.
+#/*
+
+# Descend into directories.
+#!*/
+
+# Allow directories in .config.
+!/.config/
+!/.config/**/
+
+# shell (common)
+!.dir_colors
+
+# bash
+!.bashrc
+!.bash_profile
+
+# fish
+!.config/fish/config.fish
+!.config/fish/functions/*
+
+# python
+!.ipython/*/ipython_config.py
+
+# vim
+!.vimrc
+
+# ansible
+!.ansible.cfg
+
